@@ -1,0 +1,156 @@
+* {
+    background-color: rgb(62, 45, 100);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.hdr {
+      justify-content: center;
+      display: flex;
+}
+
+
+.header {
+    color:aliceblue;
+    font-size: 42px;
+    padding: 2%;
+    justify-content: center;
+}
+
+
+.description {
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    size-adjust: auto;
+    padding: 2%;
+    justify-content: center;
+}
+
+
+.description2 {
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    size-adjust: auto;
+    padding: 5%;
+    justify-content: center;
+}
+
+
+.input {
+    background-color: rgb(207, 207, 207);
+    width: 60%;
+    height: 40px;
+    color: rgb(12, 12, 12);
+    border-radius: 15px;
+    padding-left: 1%;
+}
+
+
+.input::placeholder{
+    color: rgb(62, 45, 100);    
+}
+
+
+.button {
+    display: auto;
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    background-color: rgb(207, 207, 207);
+    }
+
+
+.parag {
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    width: 100%;
+    display: block;
+}
+
+
+.container {
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.span {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.paragrafo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.lista {
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+ul li {
+    padding-top: 1%;
+    list-style: none;
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+
+
+.botaoRemover {
+    background-color: rgb(209, 1, 1);
+    padding: 3px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    opacity: 100%;
+    color: rgb(207, 207, 207);
+}
+
+.botaoRemover:hover {
+    background-color:rgb(209, 1, 1);
+    border: 1px solid rgb(254, 234, 255);
+}
+
+.botaoRemover:active {
+    background-color: rgb(255, 45, 45);
+    border: none;
+}
+
+
+.botaoEditar {
+    background-color: rgb(0, 0, 0);
+    padding: 3px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    opacity: 100%;
+    color: rgb(207, 207, 207);
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section id="padrao">
+    <h1>Tags html</h1>
+    <article>
+        <header>
+        <h2>Títulos e subtítulos<h2>
+      </header>
+      <div>
+        <h1>Título h1</h1>
+        <h2>Título h2</h2>
+        <h3>Título h3</h3>
+        <h4>Título h4</h4>
+        <h5>Título h5</h5>
+        <h6>Título h6</h6>
+      </div>
+      <div>
+        <p> A tag define um parágrafo.</p>
+        <p>Os navegadores adicionam automaticamente uma linha em branco antes e depois de cada elemento.</p>
+      </div>
+    </article>
+    <article>
+      <header>
+        <h2>Paragráfo<h2>
+      </header>
+      <div>
+        <p>modelo parágrafo representado pelo p</p>
+      </div>
+      <div>
+        <p>Os navegadores adicionam automaticamente uma linha em branco antes e depois de cada  elemento.</p>
+      </div>
+      <div>
+        <p>O endereço é definido pela tag 'address'. Por exemplo: <adress>SIA TRECHO 17 - BRASÍLIA DF</adress></p>
+      </div>
+      <div>
+        <p>O link pode ser definido pela tag 'a'. <a link href="https://www.coffito.gov.br/">SITE COFFITO</a></p>
+      </div>
+      <div>
+        <p></p>
+      </div>
+    </article>
+  </section>
+  <section id="listas">
+    <article>
+      <header>
+        <h2>Listas</h2>
+      </header>
+      <div>
+        <ul>
+          <li>Exemplo de Lista Não Ordenada 'ul'</li>
+          <li>Elas não são definidas por uma sequência numérica</li>
+          <li>Podem ser adicionadas dentro da tag li.</li>
+        </ul>
+        <ol>
+          <li>Exemplo de Lista Ordenada 'ol'</li>
+          <li>Elas são definidas por uma sequência numérica</li>
+          <li>Podem ser adicionadas dentro da tag li.</li>
+        </ol>
+        <dl>
+          <dt>Exemplo de Lista de Descrição</dt>
+          <dd>- Fica abaixo como uma descrição</dd>
+          <dt>Utiliza-se a tag 'dt'</dt>
+          <dd>E a tag 'dd' abaixo da 'dt'</dd>
+        </dl>
+      </div>
+      </article>
+  </section>
+  <section id="formularios">
+    <article>
+      <header>
+        <h2>Formulários</h2>
+      </header>
+    <div>
+      <form id="form-contato" action="post.php" method="post"> 
+        <ul> 
+          <li><label for="nome">Nome:</label> <input type="text" name="nome" 
+          id="nome" value="" /></li> 
+          <li><label for="email">Email:</label> <input type="text" 
+          name="email" id="email" value="" /></li> 
+          <li><label for="senha">Senha:</label> <input type="password" 
+          name="senha" id="senha" value="" /></li> 
+        </ul> 
+        <ul> 
+            <li>Por favor verifique todos os emojis que se aplicam a você: 
+        <ul> 
+          <li><label for="zangado">Zangado &#128544;</label> <input 
+          type="checkbox" name="zangado" id="zangado" value="zangado"></li> 
+          <li><label for="triste">Triste &#128532;</label> <input type="checkbox" 
+          name="triste" id="triste" value="triste"></li> 
+          <li><label for="feliz">Feliz 	&#128512;</label> <input type="checkbox" 
+          name="feliz" id="feliz" value="feliz"></li> 
+          <li><label for="teimoso">Teimoso &#128548;</label> <input 
+          type="checkbox" name="teimoso" id="teimoso" value="teimoso"></li> 
+        </ul> 
+          </li> 
+          <li>Ficou satisfeito com o nosso serviço? 
+        <ul> 
+          <li><label for="msat">Muito satisfeito</label> <input 
+          type="radio" name="satisfacao" id="msat" value="msat"></li> 
+          <li><label for="saten">Satisfeito</label> <input type="radio" 
+          name="satisfacao" id="saten" value="saten"></li> 
+          <li><label for="sate">Sem atenção</label> <input type="radio" 
+          name="satisfacao" id="sate" value="sate"></li> 
+          <li><label for="insat">Insatisfeito</label> <input 
+          type="radio" name="satisfacao" id="insat" value="insat"></li> 
+          <li><label for="minsat">Muito insatisfeito</label> <input 
+          type="radio" name="satisfacao" id="minsat" value="minsat"></li> 
+        </ul> 
+          </li> 
+          <li><label for="comentarios">Outros comentários:</label> 
+          <textarea name="comentarios" id="comentarios" cols="25" 
+          rows="3"></textarea></li> 
+        </ul> 
+        <ul> 
+          <li><label for="foto">Foto:</label> <input type="file" name="foto" 
+          id="foto" value="" /></li> 
+          <li><label for="local">Local visitado:</label> 
+            <select name="local" id="local"> 
+            <option value="">Selecione o local</option> 
+            <option value="nyork">New York</option> 
+            <option value="vancouver">Vancouver</option> 
+            <option value="atlantis">Atlantis</option>   
+            </select>
+          </li> 
+        </ul> 
+        <ul> 
+          <li><input type="submit" value="Enviar" /></li> 
+        </ul> 
+      </form>
+    </div>
+    </article>
+  </section>
+  <section id="tabelas">
+      <article>
+      <header>
+        <h2>Tabelas</h2>
+      </header>
+        <div>
+        <table>
+          <tr>
+            <th>Empresa 'th'</th>
+            <th>Contato 'th'</th>
+            <th>Cidade 'th'</th>
+          </tr>
+          <tr>
+            <td>Apple 'td'</td>
+            <td>1200293 'td'</td>
+            <td>Brasília 'td'</td>
+          </tr>
+          <tr>
+            <td>Samsung 'td'</td>
+            <td>9940229 'td'</td>
+            <td>Mexico 'td'</td>
+          </tr>
+        </table>
+        </div>
+        </article>
+  </section>
+  <section id="button">
+    <article>
+      <header>
+        <h2>Botão</h2>
+      </header>
+        <div>
+          <form action="/action_page.php">
+          <input type="submit" value="Enviar">
+          </form>
+          </div>
+          </article> 
+  </section>
+  <section id="cards">
+      <article>
+      <header>
+      <div>
+        <h4>Exemplo de Card</h4>
+      </header>
+          <p>Conteúdo do Card</p>
+      </div>
+      </article>
+  </section>
+</body>
+</html>
